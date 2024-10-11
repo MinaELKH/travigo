@@ -664,3 +664,18 @@ form {
 .package {
     margin-top: 40px; 
 }
+
+
+.star-rating {
+    /*display: inline-block;*/
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 30px;
+    color: lightgray; 
+}
+
+.star.filled {
+    color: gold; 
+}
