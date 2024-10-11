@@ -31,7 +31,8 @@ header{
 	align-items: center;
 	justify-content: space-between; 
      background-color: var(--main-color);
-	padding: 30px 18%;
+	/*padding: 30px 18%;*/
+	padding: 15px 18%;
 	transition: ease .40s;
 }
 
@@ -165,9 +166,15 @@ header.sticky{
 	font-weight: 600;
 	margin-bottom: 8px;
 }
+.container-box h5{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
 .container-box p {
 	font-size: 15px;
 	color: var(--second-color);
+	line-height: 2;
 }
 .container-box:hover{
 	box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
@@ -182,12 +189,15 @@ header.sticky{
 	font-size: var(--h2-font);
 	line-height: 1.2;
 }
+
 .package-content{
+
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
+	
 }
 .thum{
 	position: relative;
@@ -618,16 +628,16 @@ form {
 
 .container-img-tip {
     display: flex;
-    justify-content: center; /* Centre l'image horizontalement */
-    overflow: hidden; /* Évite le débordement */
+    justify-content: center;
+    overflow: hidden; 
 }
 
-/* Styles pour les images */
+
 .container-img-tip img {
-    width: 100%; /* Prend toute la largeur du conteneur */
-    height: auto; /* Garde le ratio d'aspect */
-    max-height: 300px; /* Ajuste cette valeur selon tes besoins */
-    object-fit: cover; /* Remplit le conteneur tout en gardant le ratio */
+    width: 100%;
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
     box-shadow: 5px 10px 30px rgba(85, 85, 85, 0.2);
     border-radius: 4px;
     margin-bottom: 15px;
@@ -635,28 +645,22 @@ form {
 
 
 
-.checklist {
-    padding-left: 70px; /* Espacement à gauche pour la liste */
-
-}
 
 .checklist li {
-    list-style-type: disc; /* Utilisation des cercles */
-    color:var(--second-color); /* Couleur du texte */
-    margin-bottom: 10px; /* Espace entre les éléments */
+    color:var(--second-color); 
+    margin-bottom: 10px;
 }
 
-/* Optionnel : Style pour les cercles */
-.checklist li::marker {
-    color: var(--main-color); /* Change la couleur des cercles */
-}
 
 .separator {
-    width: 5cm; /* Largeur de la ligne */
-    height: 6px; /* Épaisseur de la ligne */
-    background-color: var(--second-color); /* Couleur de la ligne */
-    border: none; /* Supprime la bordure par défaut */
-	margin: 20px auto 20px 0;
+    width: 5cm; 
+    height: 6px; 
+    background-color: var(--second-color); 
+    border: none;
+	margin: 20px auto;
 	
 }
 
+.package {
+    margin-top: 40px; 
+}
