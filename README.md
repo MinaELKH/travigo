@@ -46,4 +46,8 @@ Travigo souhaite améliorer sa présence en ligne en migrant d'un site one pager
 
 1. Cloner le dépôt :
    ```bash
+<<<<<<< HEAD
    git clone [URL_DU_DEPOT]
+=======
+   git clone [URL_DU_DEPOT]
+>>>>>>> 7bf8c99891f58d753914711805e954f0dd2c9340
